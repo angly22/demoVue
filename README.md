@@ -27,7 +27,7 @@ _Para correr tu proyecto de forma local puedes hacerlo con
 npm run serve
 ```
 
-_Ve al link que observas en la terminal y listo disfruta de la app_
+_Ve al link que observas en la terminal y listo disfruta de la app algo como esto:_
  ```
 http://localhost:8080/
 ```
@@ -42,9 +42,6 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 [NodeJs](https://nodejs.org/es/download/)
 
 
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
 ## Expresiones de Gratitud 🎁
 
@@ -52,8 +49,8 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 * Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
 * Da las gracias públicamente 🤓.
 * etc.
-*Follow Me.
-*Dale Like
+* Follow Me.
+* Dale Like.
 
 ---
 ⌨️ con ❤️ por [angly22](https://github.com/angly22) 😊
