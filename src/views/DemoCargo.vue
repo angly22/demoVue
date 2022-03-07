@@ -113,6 +113,7 @@ Maquetado y estructuracion de la pagina-->
 </template>
 
 <script>
+import VueNotifications from 'vue-notifications'
 import axios from "axios"; // importamos para hacer uso de la llamada a la api
 // encapsulamos la informacion correspondiente al componente,
 // se hace para tener todo dentro del mismo archivo:html,js,stilos
@@ -144,6 +145,18 @@ export default {
       filterContinent: false,//filtro por continent-checkbox
       filterCoordinates: false,//filtro por coordinates-checkbox
     };
+  },
+  notifications: {
+    showSuccess: {
+      type: VueNotifications.types.success,
+      title: 'Success!',
+      message: 'Account created successfully'
+    },
+    showError: {
+      type: VueNotifications.types.error,
+      title: 'Oops!',
+      message: "Something's wrong"
+    }
   },
   // iniciamos los metodos que vamos a utilizar dentro de la app
   methods: {

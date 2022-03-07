@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import DemoCargo from '../views/DemoCargo.vue'
+// eslint-disable-next-line
 /* eslint-disable */
 const routes = [
   {
     path: '/',
     name: 'home',
-    component: () => import(/* webpackChunkName: "NotFound" */ '../views/DemoCargo.vue')
+    component: () => import(/* webpackChunkName: "DemoCargo" */ '../views/DemoCargo.vue')
   },
    // {
   //   path: '/:catchAll(.*)', //RUTA POR DEFECTO SI NO CONSIGUE LO QUE BUSCAMOS
