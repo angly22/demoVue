@@ -5,7 +5,7 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: DemoCargo
+    component: () => import(/* webpackChunkName: "NotFound" */ '../views/DemoCargo.vue')
   },
    // {
   //   path: '/:catchAll(.*)', //RUTA POR DEFECTO SI NO CONSIGUE LO QUE BUSCAMOS
